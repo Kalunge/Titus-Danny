@@ -1,0 +1,26 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#survey-form{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 1px 2px #d3d3d3;
+}
+.txts{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    height: 35px;
+    padding-left: 5px;
+    outline:none;
+}
+.area{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    padding-left: 5px;
+    outline:none;
+}

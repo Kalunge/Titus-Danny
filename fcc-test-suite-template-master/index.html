@@ -7,6 +7,7 @@
   </head>
 
   <body>
+    <div>
     <h1 id="title">Tito and Danny Bazar</h1>
     <p id="description"> We offer the all car models. both new and used at the best prices</p>
 
@@ -14,22 +15,22 @@
 
      <form id="survey-form">
        <div>
-       <label id="name-label" for="">Name:</label>
-       <input required type="text" id="name" placeholder="Enter your name">
+       <label id="name-label" for="">Name:</label><br>
+       <input required type="text" id="name" placeholder="Enter your name" class="txts">
       </div>
 
       <div>
-        <label id="email-label" for="">Enter your Email Adress:</label>
-        <input required type="email" id="email" placeholder="Enter your Email Adress">
+        <label id="email-label" for="">Enter your Email Adress:</label><br>
+        <input required type="email" id="email" placeholder="Enter your Email Adress"  class="txts">
        </div>
 
        <div> 
-        <label id="number-label" for="">Phone Number:</label>
-        <input min="0" max="5" required type="number" id="number" placeholder="Enter your Phone Number">
+        <label id="number-label" for="">Phone Number:</label><br>
+        <input min="0" max="5" required type="number" id="number" placeholder="Enter your Phone Number"  class="txts">
        </div>
        <div> 
-        <label id="number-label" for="">Select one:</label>
-        <select  id="dropdown">
+        <label id="number-label" for="">Select one:</label><br>
+        <select  id="dropdown"  class="txts">
           <option value="V 8">V 8</option>
           <option value="V 8">Rava 4</option>
           <option value="V 8">Toyota</option>
@@ -53,13 +54,13 @@
         <label for="vehicle3"> Never Again</label><br>
        </div>
        <div>
-         <textarea name="comments" id="" cols="30" rows="10">More Comments</textarea>
+         <textarea name="comments" id="" cols="30" rows="10" class="area">More Comments</textarea>
        </div>
        <div>
-         <button id="submit" type="submit">Submit Feedback</button>
+         <button id="submit" type="submit" class="txts">Submit Feedback</button>
        </div>
      </form>
-
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
